@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicant Page</title>
+    <link rel="stylesheet" href="applicant.css">
+</head>
+
+<body onLoad="OnLoad()">
+
+    
+    <div id="forSearchBox">
+        <input id="searchBoxText" onchange="searchUpdate()" type="text" placeholder="Search">
+    </div>
+
+    <div id="forButtons">
+        <button id="previousButton" onclick="previous()">previous</button>
+        <button id="nextButton" onclick="next()">next</button>
+    </div>
+
+    <br />
+
+    <div id="applicantBox">
+        <div id="topWithinApplicantBox">
+            <br>
+            <div id="nameAndAppliedFor">
+            <span id="name"></span>
+            <br>
+            Applied for : <span id="appliedFor"></span>
+        </div>
+        </div>
+
+
+        <div id="leftWithinApplicantBox">
+
+            <span id="spanWithinLeft">Personal Information</span>
+            <br>
+            <span id="phoneNo"></span>
+            <br>
+            <span id="emailId"></span>
+            <br>
+            <span id="linkedin"></span>
+            <br>
+            <br>
+            <span id="spanWithinLeft">Technical Skills</span>
+            <br>
+            <span id="techSkills"></span>
+            <br>
+            <br>
+            <span id="spanWithinLeft">Hobbies</span>
+            <br>
+            <span id="hobbies"></span>
+            <br>
+            <br>
+            <span id="spanWithinLeft">Address</span>
+            <br>
+            <span id="address"></span>
+            <br>
+
+        </div>
+
+        <div id="rightWithinApplicantBox">
+            
+            <span id="spanWithinRightHeading">Work Experience in previous company</span>
+            <br>
+            <br>
+            Company Name : <span id="companyName"></span>
+            <br>
+            <br>
+            Position : <span id="position"></span>
+            <br>
+            <br>
+            Start Date : <span id="startDate"></span>
+            <br>
+            <br>
+            End Date : <span id="endDate"></span>
+            <br>
+            <br>
+            Summary : <span id="summary"></span>
+            <br>
+            <br>
+            Projects : <span id="projectName"></span>
+            <br>
+            <span id="projectDescription"></span>
+            <br>
+            <br>
+            Education :
+            <br>
+            <ul>
+                <li> UG : <span id="ugEducation"></span></li>
+
+                <li> PU : <span id="puEducation"></span></li>
+
+                <li> High School : <span id="hsEducation"></span></li>
+
+            </ul>
+            <br>
+            Internship :
+            <br>
+            <ul>
+                <li>Company Name : <span id="internshipCompanyName"></span></li>
+
+                <li>Position : <span id="internshipPosition"></span></li>
+
+                <li>Start Data : <span id="internshipStartDate"></span></li>
+
+                <li>End Date : <span id="internshipEndDate"></span></li>
+
+                <li>Summary : <span id="internshipSummary"></span></li>
+
+
+            </ul>
+            <br>
+            Achievements : <span id="achievements"></span>
+            <br>
+
+        </div>
+    </div>
+
+
+
+    <script src="applicant.js"></script>
+</body>
+
+</html>

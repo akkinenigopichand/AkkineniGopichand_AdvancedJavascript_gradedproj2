@@ -1,0 +1,118 @@
+#searchBoxText{
+    height: 25px;
+    border-radius: 10%;
+    background-color: ivory;
+    border-color: gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#previousButton,#nextButton{
+    height: 25px;
+    border-radius: 10%;
+    width: 100px;
+    margin: 10px;
+    background-color: ivory;
+    border-color: gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#forSearchBox {
+    align-items: center;
+    align-content: center;
+    float: left;
+    margin-left: 20%;
+    margin-top: 25px;
+}
+
+#forButtons {
+    align-items: center;
+    align-content: center;
+    float: right;
+    margin-right: 20%;
+    margin-top: 25px;
+}
+
+#applicantBox {
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
+    margin-left: 12.5%;
+    border: 2px solid;
+    border-color: black;
+    background-color: antiquewhite;
+    width: 75%;
+    height: 1000px;
+    margin-bottom: 50px;
+
+}
+
+#topWithinApplicantBox {
+    background-color: aquamarine;
+    height: 10%;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    overflow-wrap: break-word;
+    margin-left: auto;
+}
+
+#nameAndAppliedFor{
+    margin-left: 40%;
+}
+
+#leftWithinApplicantBox {
+    width: 20%;
+    margin: 5%;
+    float: left;
+    background-color: pink;
+    min-height: 100px;
+    align-items: center;
+    align-content: center;
+    overflow-wrap: break-word;
+    padding: 1%;
+
+}
+
+#rightWithinApplicantBox {
+    width: 65%;
+    float: right;
+    padding-top: 10px;
+    height: 65%;
+    align-items: center;
+    align-content: center;
+    overflow-wrap: break-word;
+}
+
+#testing {
+    font-size: large;
+}
+
+#name {
+    font-size: 25px;
+}
+
+
+
+#spanWithinLeft {
+    background-color: slategray;
+    padding: 2px;
+    margin: 5px;
+}
+
+#phoneNo,
+#emailId,
+#techSkills,
+#hobbies {
+    padding: 5px;
+    margin: 5px;
+}
+
+#spanWithinRightHeading {
+    font-size: 25px;
+}
+
+
+
+#rightWithinApplicantBox>* {
+    font-weight: bold;
+}
